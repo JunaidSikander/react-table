@@ -1,3 +1,4 @@
+import RowSelection from './components/RowSelection';
 import PaginationTable from './components/PaginationTable';
 import ColumnFilterTable from './components/ColumnFilterTable.jsx';
 import FilteringTable from './components/FilteringTable';
@@ -17,7 +18,8 @@ function App() {
             {/*<Sorting/>*/}
             {/*<FilteringTable/>*/}
             {/*<ColumnFilterTable/>*/}
-            <PaginationTable/>
+            {/*<PaginationTable/>*/}
+            <RowSelection/>
     </>
     )
 }
