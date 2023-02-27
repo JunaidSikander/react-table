@@ -1,3 +1,4 @@
+import ColumnHiding from './components/ColumnHiding';
 import ColumnOrder from './components/ColumnOrder.jsx';
 import RowSelection from './components/RowSelection';
 import PaginationTable from './components/PaginationTable';
@@ -21,7 +22,8 @@ function App() {
             {/*<ColumnFilterTable/>*/}
             {/*<PaginationTable/>*/}
             {/*<RowSelection/>*/}
-            <ColumnOrder/>
+            {/*<ColumnOrder/>*/}
+            <ColumnHiding/>
     </>
     )
 }
