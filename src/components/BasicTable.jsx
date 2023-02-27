@@ -18,7 +18,7 @@ export default function BasicTable() {
                 <tr { ...headerGroup.getHeaderGroupProps() }>
                     {
                         headerGroup.headers.map( ( column ) => (
-                            <th { ...column.getHeaderGroupProps }>
+                            <th { ...column.getHeaderProps }>
                                     { column.render( 'Header' ) }
                                 </th>
                         ) )
