@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useTable } from "react-table"
-import COLUMNS from '../components/columns';
+import { COLUMNS } from '../components/columns';
 import MOCK_DATA from "../data/MOCK_DATA.json"
 import "./table.css"
 
