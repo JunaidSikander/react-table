@@ -68,3 +68,7 @@ button:focus-visible {
   padding: 0.5rem 1em;
   text-align: center;
 }
+
+.text-center {
+  text-align: center;
+}
