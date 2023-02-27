@@ -1,3 +1,4 @@
+import FilteringTable from './components/FilteringTable';
 import Sorting from './components/Sorting';
 import HeaderGroups from './components/HeaderGroups.jsx';
 import BasicTableWithFooter from './components/BasicTableWithFooter';
@@ -11,7 +12,8 @@ function App() {
             {/*<BasicTable/>*/}
             {/*<BasicTableWithFooter/>*/}
             {/*<HeaderGroups/>*/}
-            <Sorting/>
+            {/*<Sorting/>*/}
+            <FilteringTable/>
     </>
     )
 }
