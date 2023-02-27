@@ -1,3 +1,4 @@
+import StickyTable from './components/StickyTable';
 import ColumnHiding from './components/ColumnHiding';
 import ColumnOrder from './components/ColumnOrder.jsx';
 import RowSelection from './components/RowSelection';
@@ -23,7 +24,8 @@ function App() {
             {/*<PaginationTable/>*/}
             {/*<RowSelection/>*/}
             {/*<ColumnOrder/>*/}
-            <ColumnHiding/>
+            {/*<ColumnHiding/>*/}
+            <StickyTable/>
     </>
     )
 }
